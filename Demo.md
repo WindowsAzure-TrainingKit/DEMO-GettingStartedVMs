@@ -52,7 +52,7 @@ This demo is composed of the following segments:
 
 1.	Show how to create a new Server 2012 virtual machine in the Windows Azure Management portal using the gallery experience but actually do not create it (skip the last wizard step and use the VM created in the setup section).
 
-	![VM OS Selection](images/vm-os-selection.png?raw=true "VM OS Selection")
+	![VM OS Selection](Images/vm-os-selection.png?raw=true "VM OS Selection")
 
 	_VM OS Selection_
 
@@ -77,13 +77,13 @@ This demo is composed of the following segments:
 	> **Speaking Point**: Note that you just dynamically added an additional 1TB in storage.
 	> An X-Large VM can have up to 16x1TB disks attached (Small is only 2x1TB disks)
 
-	![Attacching an Empty Disk](images/attacching-an-empty-disk.png?raw=true)
+	![Attacching an Empty Disk](Images/attacching-an-empty-disk.png?raw=true)
 
 	_Attacching an Empty Disk_
 
 1. Show how to create a new VM based on a Linux distro but do not actually create it  (skip the last wizard step and use the VM created in the setup section).
 
-	![Creating a Linux VM](images/creating-a-linux-vm.png?raw=true)
+	![Creating a Linux VM](Images/creating-a-linux-vm.png?raw=true)
 
 	_Creating a Linux VM_
 
@@ -91,7 +91,7 @@ This demo is composed of the following segments:
 
 	This will put the Linux VM on the same network as the server 2012 VM.
 
-	![VM Mode](images/vm-mode.png?raw=true "VM Mode")
+	![VM Mode](Images/vm-mode.png?raw=true "VM Mode")
 
 	_VM Mode_
 
@@ -103,13 +103,13 @@ This demo is composed of the following segments:
 
 1. Use Putty or another SSH client and connect to the Linux VM.
 
-	![SSH Details](images/ssh-details.png?raw=true "SSH Details")
+	![SSH Details](Images/ssh-details.png?raw=true "SSH Details")
 
 	_SSH Details_
 
 1. Ping the Server 2012 VM to demonstrate connectivity.
 
-	![Ping to the new VM](images/ping-to-the-new-vm.png?raw=true "Ping to the new VM")
+	![Ping to the new VM](Images/ping-to-the-new-vm.png?raw=true "Ping to the new VM")
 	
 	_Ping to the new VM_
 
