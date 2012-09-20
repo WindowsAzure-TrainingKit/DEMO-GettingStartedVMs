@@ -30,7 +30,7 @@ This demo uses the following technologies:
 ### Setup and Configuration ###
 
 1.	Create a new Server 2012 virtual machine.
-	1.	Create Empty Disk 1023 TB.
+	1.	Create Empty Disk 1023 GB.
 	1.	RDP into the machine and initialize and format the disk.
 	1.	Launch Windows Firewall with Advanced Security.
 	1.	Under Inbound Rules Enable both File and Printer Sharing Echo Request Rules.
@@ -77,11 +77,11 @@ This demo is composed of the following segments:
 	> **Speaking Point**: Note that you just dynamically added an additional 1TB in storage.
 	> An X-Large VM can have up to 16x1TB disks attached (Small is only 2x1TB disks)
 
-	![Attacching an Empty Disk](Images/attacching-an-empty-disk.png?raw=true)
+	![Attaching an Empty Disk](Images/attaching-an-empty-disk.png?raw=true)
 
-	_Attacching an Empty Disk_
+	_Attaching an Empty Disk_
 
-1. Show how to create a new VM based on a Linux distro but do not actually create it  (skip the last wizard step and use the VM created in the setup section).
+1. Show how to create a new VM based on a Linux distro but do not actually create it (skip the last wizard step and use the VM created in the setup section).
 
 	![Creating a Linux VM](Images/creating-a-linux-vm.png?raw=true)
 
@@ -118,4 +118,4 @@ This demo is composed of the following segments:
 <a name="summary" />
 ## Summary ##
 
-In this demonstration, you have seen how to provision a virtual machine and dynamically add additional storage to the VM.  You have also seen how to add additional virtual machines to the same cloud service to establish direct network connectivity and name resolution. 
+In this demonstration, you have seen how to provision a virtual machine and dynamically add additional storage to the VM. You have also seen how to add additional virtual machines to the same cloud service to establish direct network connectivity and name resolution. 
