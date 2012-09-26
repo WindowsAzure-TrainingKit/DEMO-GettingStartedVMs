@@ -34,7 +34,7 @@ This demo uses the following technologies:
 	1.	RDP into the machine and initialize and format the disk.
 	1.	Launch Windows Firewall with Advanced Security.
 	1.	Under Inbound Rules Enable both File and Printer Sharing Echo Request Rules.
-1.	Create a new Linux VM and “connect” to the existing Server 2012 VM.
+
 
 ---
 
