@@ -14,7 +14,7 @@
 	<Title>Getting Started with Windows Azure Virtual Machines</Title>
 	<Version>1.1.0</Version>
 	<Source>Source</Source>
-	<DependencyChecker>Setup\Dependencies.depi</DependencyChecker>
+	<DependencyChecker></DependencyChecker>
 	<CustomProperties>
 		<Property Name="GitHubRepository" Value="https://github.com/WindowsAzure-TrainingKit/DEMO-GettingStartedVMs" />
 	</CustomProperties>
