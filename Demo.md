@@ -30,7 +30,7 @@ This demo uses the following technologies:
 ### Setup and Configuration ###
 
 1.	Create a new Server 2012 virtual machine.
-	1.	Create Empty Disk 1023 TB.
+	1.	Create Empty Disk 1023 GB.
 	1.	RDP into the machine and initialize and format the disk.
 	1.	Launch Windows Firewall with Advanced Security.
 	1.	Under Inbound Rules Enable both File and Printer Sharing Echo Request Rules.
