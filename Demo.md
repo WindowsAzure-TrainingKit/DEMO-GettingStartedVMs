@@ -13,9 +13,9 @@ This demonstration shows how to get started creating and configuring Windows Azu
 ### Goals ###
 In this demo, you will see three things:
 
-1.	VM Creation
-1.	VM Configuration 
-1.	VM Connectivity 
+1.	Virtual Machine Creation
+1.	Virtual Machine Configuration 
+1.	Virtal Machine Connectivity 
 
 <a name="technologies" />
 ### Key Technologies ###
@@ -30,7 +30,7 @@ This demo uses the following technologies:
 ### Setup and Configuration ###
 
 1.	Create a new Server 2012 virtual machine.
-	1.	Create Empty Disk 1023 GB.
+	1.	Create Empty Disk of 1023 GB.
 	1.	RDP into the machine and initialize and format the disk.
 	1.	Launch Windows Firewall with Advanced Security.
 	1.	Under Inbound Rules Enable both File and Printer Sharing Echo Request Rules.
@@ -49,58 +49,58 @@ This demo is composed of the following segments:
 <a name="segment1" />
 ### Virtual Machine Creation ###
 
-1.	Show how to create a new Server 2012 virtual machine in the Windows Azure Management portal using the gallery experience but actually do not create it (skip the last wizard step and use the VM created in the setup section).
+1.	Show how to create a new Server 2012 virtual machine in the Windows Azure Management portal using the gallery experience but actually do not create it (skip the last wizard step and use the Virtual Machine created in the setup section).
 
 	![VM OS Selection](Images/vm-os-selection.png?raw=true "VM OS Selection")
 
-	_VM OS Selection_
+	_Virtual Machine Operating System Selection_
 
-	> **Speaking Point**: Note that we support creation from images or disks. Note that the images can be custom images created by the owner of the subscription or they can be platform.
+	> **Speaking Point**: Note that Windows Azure supports creation from images or disks. Note that the images can be custom images created by the owner of the subscription or they can be platform images.
 
-	> Note that we now support various Linux distros.
+	> Note that Windows Azure now supports various Linux distros.
 
 
 <a name="segment2" />
 ### Virtual Machine Configuration ###
 
-1.	While the previous VM is provisioned switch to the VM that was previously booted.
+1.	While the previous Virtual Machine is provisioned, switch to the Virtual Machine that was previously booted.
 
-1. RDP into the VM, start computer manager and disk management.
+1. RDP into the Virtual Machine, start computer manager and go to disk management.
 
-	> **Speaking Point**: Note that you have 1TB of storage. How do I get more? 
+	> **Speaking Point**: Note that you have 1TB of storage. How do you get more? 
 
-1. In the portal click Attach Empty Disk.
+1. In the portal click **Attach Empty Disk**.
 
-1. Type in 1023 and switch back to disk manager.
+1. Type _1023_ and switch back to the disk manager.
 
 	> **Speaking Point**: Note that you just dynamically added an additional 1TB in storage.
-	> An X-Large VM can have up to 16x1TB disks attached (Small is only 2x1TB disks)
+	> An X-Large VM can have up to 16x1TB disks attached (Small is only 2x1TB disks).
 
 	![Attaching an Empty Disk](Images/attaching-an-empty-disk.png?raw=true)
 
 	_Attaching an Empty Disk_
 
-1. Show how to create a new VM based on a Linux distro but do not actually create it (skip the last wizard step and use the VM created in the setup section).
+1. Show how to create a new Virtual Machine based on a Linux distro but do not actually create it (skip the last wizard step and use the Virtual Machine created in the setup section).
 
 	![Creating a Linux VM](Images/creating-a-linux-vm.png?raw=true)
 
-	_Creating a Linux VM_
+	_Creating a Linux Virtual Machine_
 
-1. Change from stand-alone to connect to existing VM and select the running Server 2012 VM.
+1. Change from stand-alone to connect to existing Virtual Machine and select the running Server 2012 Virtual Machine.
 
-	This will put the Linux VM on the same network as the server 2012 VM.
+	This will put the Linux Virtual Machine on the same network as the server 2012 Virtual Machine.
 
 	![VM Mode](Images/vm-mode.png?raw=true "VM Mode")
 
-	_VM Mode_
+	_Virtual Machine Mode_
 
-	> **Note:** 2-3 mins for boot - talk about another slide
+	> **Note:** It takes 2-3 mins to boot - talk about another slide
 
 
 <a name="segment3" />
 ### Virtual Machine Connectivity ###
 
-1. Use Putty or another SSH client and connect to the Linux VM.
+1. Use Putty or another SSH client and connect to the Linux Virtual Machine.
 
 	![SSH Details](Images/ssh-details.png?raw=true "SSH Details")
 
@@ -110,11 +110,11 @@ This demo is composed of the following segments:
 
 	![Ping to the new VM](Images/ping-to-the-new-vm.png?raw=true "Ping to the new VM")
 	
-	_Ping to the new VM_
+	_Pinging to the new Virtual Machine_
 
 ---
 
 <a name="summary" />
 ## Summary ##
 
-In this demonstration, you have seen how to provision a virtual machine and dynamically add additional storage to the VM. You have also seen how to add additional virtual machines to the same cloud service to establish direct network connectivity and name resolution. 
+In this demonstration, you have seen how to provision a virtual machine and dynamically add additional storage to the Virtual Machine. You have also seen how to add additional virtual machines to the same cloud service to establish direct network connectivity and name resolution.
