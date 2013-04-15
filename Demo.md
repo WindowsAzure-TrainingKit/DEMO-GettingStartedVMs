@@ -49,7 +49,7 @@ This demo is composed of the following segments:
 <a name="segment1" />
 ### Virtual Machine Creation ###
 
-1.	Show how to create a new Server 2012 virtual machine in the Windows Azure Management portal using the gallery experience but actually do not create it (skip the last wizard step and use the Virtual Machine created in the setup section).
+1.	Show how to create a new Windows Server 2012 Datacenter virtual machine in the Windows Azure Management portal using the gallery experience but actually do not create it (skip the last wizard step and use the Virtual Machine created in the setup section).
 
 	![VM OS Selection](Images/vm-os-selection.png?raw=true "VM OS Selection")
 
