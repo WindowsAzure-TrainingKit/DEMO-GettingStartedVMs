@@ -15,7 +15,7 @@ In this demo, you will see three things:
 
 1.	Virtual Machine Creation
 1.	Virtual Machine Configuration 
-1.	Virtal Machine Connectivity 
+1.	Virtual Machine Connectivity 
 
 <a name="technologies" />
 ### Key Technologies ###
@@ -26,14 +26,22 @@ This demo uses the following technologies:
 
 [1]: https://manage.windowsazure.com/
 
+<a name="Prerequisites" />
+### Prerequisites ###
+
+The following is required to complete this hands-on lab:
+
+- A Windows Azure subscription [sign up for a free trial](http://aka.ms/WATK-FreeTrial)
+- Putty SSH Client for Windows [Putty home page](http://www.putty.org/)
+
 <a name="setup" />
 ### Setup and Configuration ###
 
-1.	Create a new Server 2012 virtual machine.
+1.	Create a new Windows Server 2012 virtual machine.
 	1.	Create Empty Disk of 1023 GB.
 	1.	RDP into the machine and initialize and format the disk.
-	1.	Launch Windows Firewall with Advanced Security.
-	1.	Under Inbound Rules Enable both File and Printer Sharing Echo Request Rules.
+	1.	Launch **Windows Firewall with Advanced Security**.
+	1.	Under **Inbound Rules** enable both **File and Printer Sharing Echo Request Rules**.
 
 ---
 
@@ -63,9 +71,7 @@ This demo is composed of the following segments:
 <a name="segment2" />
 ### Virtual Machine Configuration ###
 
-1.	While the previous Virtual Machine is provisioned, switch to the Virtual Machine that was previously booted.
-
-1. RDP into the Virtual Machine, start computer manager and go to disk management.
+1. RDP into the virtual machine created in the Setup section, start **Computer Management** and go to **Disk Management**.
 
 	> **Speaking Point**: Note that you have 1TB of storage. How do you get more? 
 
@@ -74,28 +80,25 @@ This demo is composed of the following segments:
 1. Type _1023_ and switch back to the disk manager.
 
 	> **Speaking Point**: Note that you just dynamically added an additional 1TB in storage.
-	> An X-Large VM can have up to 16x1TB disks attached (Small is only 2x1TB disks).
+	> An X-Large virtual machine can have up to 16x1TB disks attached (Small is only 2x1TB disks).
 
 	![Attaching an Empty Disk](Images/attaching-an-empty-disk.png?raw=true)
 
 	_Attaching an Empty Disk_
 
-1. Show how to create a new Virtual Machine based on a Linux distro but do not actually create it (skip the last wizard step and use the Virtual Machine created in the setup section).
+1. Create a new Virtual Machine based on SUSE Linux distribution.
 
 	![Creating a Linux VM](Images/creating-a-linux-vm.png?raw=true)
 
 	_Creating a Linux Virtual Machine_
 
-1. Change from stand-alone to connect to existing Virtual Machine and select the running Server 2012 Virtual Machine.
-
-	This will put the Linux Virtual Machine on the same network as the server 2012 Virtual Machine.
+1. Change from stand-alone to connect to existing Virtual Machine and select the running Windows Server 2012 Virtual Machine. This will put the Linux Virtual Machine on the same network as the server 2012 Virtual Machine. Leave the default values and complete the wizard.
 
 	![VM Mode](Images/vm-mode.png?raw=true "VM Mode")
 
 	_Virtual Machine Mode_
 
 	> **Note:** It takes 2-3 mins to boot - talk about another slide
-
 
 <a name="segment3" />
 ### Virtual Machine Connectivity ###
@@ -106,7 +109,7 @@ This demo is composed of the following segments:
 
 	_SSH Details_
 
-1. Ping the Server 2012 VM to demonstrate connectivity.
+1. Ping the Windows Server 2012 virtual machine demonstrate connectivity.
 
 	![Ping to the new VM](Images/ping-to-the-new-vm.png?raw=true "Ping to the new VM")
 	
