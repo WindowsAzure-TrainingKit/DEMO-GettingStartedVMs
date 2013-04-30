@@ -12,7 +12,7 @@
   <Description>This demonstration shows how to get started creating and configuring Windows Azure Virtual Machines.</Description>
   <Document ConversionType="Html">Demo.md</Document>
   <Title>Getting Started with Windows Azure Virtual Machines</Title>
-  <Version>1.1.1</Version>
+  <Version>1.1.2</Version>
   <Source>Source</Source>
   <DependencyChecker></DependencyChecker>
   <CustomProperties>
